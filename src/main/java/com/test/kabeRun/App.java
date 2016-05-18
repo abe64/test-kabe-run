@@ -1,13 +1,16 @@
 package com.test.kabeRun;
 
+import com.test.kabe.test_kabe.TestApp;
+
 /**
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	TestApp ta = new TestApp();
+    	ta.output();
     }
 }
